@@ -7,7 +7,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the Titanic dataset
-data = pd.read_csv('/content/titanic csv.csv')
+data = pd.read_csv('/content/titanic.csv')
 
 # Display basic statistics of the dataset
 print(data.describe(include='all'))
